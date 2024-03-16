@@ -1,4 +1,9 @@
 {
     "userspace_version": "1.0",
-    "build_targets": []
+    "build_targets": [
+     ["planck/rev6", "default"],
+     ["planck/rev6", "ajp10304"],
+     ["acheron/shark/alpha", "ajp10304"],
+     ["kprepublic/jj40", "ajp10304"]
+    ]
 }
