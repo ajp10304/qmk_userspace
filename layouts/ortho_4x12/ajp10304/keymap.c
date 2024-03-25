@@ -142,8 +142,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `--------------------------------------------------------------------------------------'
  */
 [_ADJUST] = LAYOUT_ortho_4x12(
-  M_CUSTOM, QK_BOOT, QWERTY,  _______, DT_UP, DM_REC1, DM_REC2, _______,             _______,           _______,              TG(_MAC), KC_DEL,
-  CW_TOGG,  KC_CAPS, _______, _______, DT_PRNT,   DM_PLY1, DM_PLY2, KC_AUDIO_MUTE,       KC_AUDIO_VOL_UP,   KC_MEDIA_PLAY_PAUSE,  _______,  LAG(KC_EQL),
+  M_CUSTOM, QK_BOOT, QWERTY,  _______, DT_UP,   DM_REC1, DM_REC2, _______,             _______,           _______,              TG(_MAC), KC_DEL,
+  CW_TOGG,  KC_CAPS, _______, _______, DT_PRNT, DM_PLY1, DM_PLY2, KC_AUDIO_MUTE,       KC_AUDIO_VOL_UP,   KC_MEDIA_PLAY_PAUSE,  _______,  LAG(KC_EQL),
   _______,  _______, _______, _______, DT_DOWN, DM_RSTP, DM_RSTP, KC_MEDIA_PREV_TRACK, KC_AUDIO_VOL_DOWN, KC_MEDIA_NEXT_TRACK,  _______,  LAG(KC_MINS),
   _______,  _______, _______, _______, _______, _______, _______, _______,             _______,           _______,              _______,  _______
 ),
