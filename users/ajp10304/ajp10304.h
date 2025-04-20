@@ -48,6 +48,7 @@ enum ajp10304_keycodes {
   MOUSE,
   NUMPAD,
   M_CUSTOM,
+  M_CASE,
   M_WORD_SEL,
   M_WORD_SEL_MAC,
   M_LINE_SEL,
