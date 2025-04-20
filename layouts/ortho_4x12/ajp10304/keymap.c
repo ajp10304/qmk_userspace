@@ -127,7 +127,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * Audio controls in the same position as cursor keys from the Raise layer.
  * ????: Runs a macro for outputting a text string. Do not use this store passwords.
  * Reset: Enter bootloader for flashing firmware to the keyboard.
- * CWTOGG: Toggle caps word (see qmk docs)
+ * CWTOGG: Toggle caps word (see qmk docs) (Also by pressing both L&R shifts)
  * CAPS: Toggle caps lock.
  * Macro functions: Allows recording of macros. To start recording the macro, press either REC1 or REC2. To finish the recording, press STOP. To replay the macro, press either PLAY1 or PLAY2.
  * MAC: Toggle MAC OS extensions to layers. This allows MLWR to be enabled with LOWER, MRSE with RAISE, MFNC with FUNC and MFNC2 with FUNC2 respectively.

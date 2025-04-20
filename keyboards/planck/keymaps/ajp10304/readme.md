@@ -3,3 +3,5 @@
 
 ## Flashing:
 `qmk flash -kb planck/rev6 -km ajp10304`
+### Pro Micro Flashing:
+`qmk flash -kb planck/rev4 -km ajp10304 --bootloader avrdude`
